@@ -1,0 +1,11 @@
+#80表示注册到zookeeper服务器的消费者端口
+server:
+  port: 80
+
+#服务别名----注册zookeeper到注册中心名称
+spring:
+  application:
+    name: cloud-consumerzk-order
+  cloud:
+    zookeeper:
+      connect-string: 121.40.17.128:2181
